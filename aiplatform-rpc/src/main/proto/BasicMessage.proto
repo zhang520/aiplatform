@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+option java_package = "com.xuanwu.xtion.grpc.message";
+option java_outer_classname = "BasicMessageProto";
+
+message RpcString {
+    string value = 1;
+}
+
+message RpcBoolean {
+    bool value = 1;
+}
+
+message RpcInteger {
+    int32 value = 1;
+}
+
+message RpcDouble {
+    double value = 1;
+}
+
+message RpcFloat {
+    float value = 1;
+}
+
+message RpcBytes {
+    bytes value = 1;
+}

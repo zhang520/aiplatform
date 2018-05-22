@@ -9,7 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>aiplatform-discovery</artifactId>
+    <artifactId>aiplatform-media</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.xuanwu.xtion</groupId>
+            <artifactId>aiplatform-rpc</artifactId>
+            <version>${version}</version>
+        </dependency>
+    </dependencies>
 </project>

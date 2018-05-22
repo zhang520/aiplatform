@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "com.xuanwu.xtion.grpc.message.image";
+option java_outer_classname = "ImageMediaProto";
+
+message Image {
+    string imageName = 1;
+    string imageUrl = 2;
+    bytes imageBytes = 3;
+}

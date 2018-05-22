@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "BasicMessage.proto";
+import "Image/ImageMedia.proto";
+
+option java_multiple_files = true;
+option java_package = "com.xuanwu.xtion.grpc.media";
+option java_outer_classname = "MediaServiceProto";
+option objc_class_prefix = "HLW";
+
+package media;
+
+service MediaService {
+    // 检查图片是否清晰
+    rpc checkImageFuzzy(RpcString) returns(RpcBoolean) {}
+
+    rpc fetchImage(Image) returns(RpcString) {}
+}
+
+
