@@ -1,13 +1,11 @@
 package com.xuanwu.xtion.task.rest;
 
-import com.xuanwu.xtion.rest.helper.RestHelper;
+import com.xuanwu.xtion.helper.rest.RestHelper;
 import com.xuanwu.xtion.task.entity.Task;
 import com.xuanwu.xtion.task.service.TaskService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.inject.Named;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;

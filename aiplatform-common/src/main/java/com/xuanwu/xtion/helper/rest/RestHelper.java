@@ -1,4 +1,6 @@
-package com.xuanwu.xtion.rest.helper;
+package com.xuanwu.xtion.helper.rest;
+
+import com.xuanwu.xtion.helper.rest.ResponseObj;
 
 import javax.ws.rs.core.Response;
 

@@ -31,7 +31,6 @@ public class GrpcClientInvocationHanlder implements InvocationHandler {
             if (throwable instanceof StatusRuntimeException) {
                 switch (throwable.getCause().getClass().toString()) {
                     case "ConnectException.class":
-                        if (client != null) { client.refreshChannel(); }
                         break;
                     default:
                         break;

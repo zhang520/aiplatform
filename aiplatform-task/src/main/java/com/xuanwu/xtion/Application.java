@@ -21,7 +21,7 @@ public class Application {
     }
 
     @Bean
-    public RestServiceAop initRestServiceAop() { return new RestServiceAop().setLogger(LoggerFactory.getLogger(Application.class)); }
+    public RestServiceAop initRestServiceAop() { return new RestServiceAop(); }
 
     public static void main(String... arg) { SpringApplication.run(Application.class, arg); }
 }

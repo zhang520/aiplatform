@@ -1,4 +1,4 @@
-package com.xuanwu.xtion.rest.helper;
+package com.xuanwu.xtion.helper;
 
 /**
  * Created by Mr.zhang on 2018/5/12.
