@@ -2,7 +2,6 @@ package com.xuanwu.xtion.grpc.loadbalance;
 
 import io.grpc.*;
 
-import javax.validation.constraints.NotNull;
 import java.util.List;
 
 public abstract class GrpclbLoadBalancer extends LoadBalancer {
