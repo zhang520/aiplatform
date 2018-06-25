@@ -8,14 +8,9 @@
         <version>${version}</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>aiplatform-task</artifactId>
+    <artifactId>aiplatform-message</artifactId>
 
     <dependencies>
-        <dependency>
-            <groupId>com.xuanwu.xtion</groupId>
-            <artifactId>aiplatform-rpc</artifactId>
-            <version>${version}</version>
-        </dependency>
         <dependency>
             <groupId>com.xuanwu.xtion</groupId>
             <artifactId>aiplatform-common</artifactId>
